@@ -1,0 +1,2 @@
+# gicdt
+Plataforma del GICDT
