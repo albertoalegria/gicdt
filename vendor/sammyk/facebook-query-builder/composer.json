@@ -1,0 +1,28 @@
+{
+    "name": "sammyk/facebook-query-builder",
+    "description": "An elegant and efficient way to interface with Facebook's Graph API",
+    "keywords": ["facebook", "sdk", "graph api"],
+    "homepage": "https://github.com/SammyK/FacebookQueryBuilder",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sammy Kaye Powers",
+            "email": "sammyk@sammykmedia.com",
+            "homepage": "http://www.sammyk.me",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "facebook/php-sdk-v4": "~4.0.12",
+        "nesbot/Carbon": "~1.13.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "SammyK\\FacebookQueryBuilder\\": "src"
+        }
+    }
+}
